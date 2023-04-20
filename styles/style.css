@@ -1,0 +1,65 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;    margin:0;
+}
+header{
+    width: 95%;
+    padding-bottom: 0.1%;
+    padding-top: 0.1%;
+    background-color: rgb(80, 164, 223);
+    padding-left: 5%;
+    margin-top: 0;
+    color: white;
+    font-size: 1.6em ;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+main,.blog{
+    width: 80%;
+    margin: 0 auto;
+    border: 1px rgb(125, 125, 125) solid;
+    margin-top: 2%;
+}
+h1,h3,h5{
+    margin: 1% 2%;
+    font-weight: normal;
+}
+
+input,textarea{
+    width: 91%;
+    margin: 1px 2% 1%;
+    border: 1.6px rgb(173, 162, 162) solid;
+    padding: 1% 2%;
+}
+button{
+    width: 95.8%;
+    padding: 1% 0;
+    margin: 1px 2%;
+    color: white;
+    background-color: rgb(95, 95, 218);
+    margin-bottom: 1%;
+}
+.cancel_but,.edit_but{
+    display: inline-block;
+    width: auto;
+    background-color: white;
+    margin: 0 0 0 2%;
+    font-weight: normal;
+    padding-top: 0;
+    border: none;
+
+}
+#update_btn,#cancel_edit_btn{
+    display: none;
+}
+#update_btn{
+    background-color: orange;
+}
+#cancel_edit_btn{
+    color: black;
+    background-color: rgb(247, 255, 248);
+}
+footer{
+    background-color: rgb(212, 212, 212);
+    width: 100%;
+    margin: 2% 0 0 0;
+    text-align: center;
+}
